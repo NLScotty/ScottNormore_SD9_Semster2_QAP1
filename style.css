@@ -1,0 +1,84 @@
+/* Element Selectors */
+
+body{
+    /* generated the below ising https://superdesigner.co/tools/css-backgrounds */
+    background: linear-gradient(45deg, transparent 49%, #efefef 49% 51%, transparent 51%) , linear-gradient(-45deg, transparent 49%, #efefef 49% 51%, transparent 51%);
+    background-size: 5em 5em;
+    background-color: #ffffff;
+    opacity: 1
+}
+header{
+    height: 50px;
+    background-color: orange;
+    border-radius: 20px 20px 0px 0px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 0px 0.1px 0px;
+}
+article{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 2em;
+}
+footer{
+    padding-top: 0px;
+    height: 30px;
+    text-align: center;
+    background-color: orange;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1px 0px 0px 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1px;
+}
+figure{
+    text-align: center;
+    display: inline-block;
+    margin-left: 58px;
+    margin-right: 58px;
+}
+/* Class Selectors */
+.imgbox{
+    background-color: white;
+    padding: 3px 5px 5px 3px;
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1px;
+}
+
+/* Id Selectors */
+
+#main_box{
+    margin: 5px auto 5px auto;
+    width: 900px;
+    background-color: wheat;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1px;
+}
+#tittle_box{
+    padding-top: 4px;
+}
+#left{
+    margin-left: 88px;
+    margin-right: 28px;
+}
+#right{
+    margin-left: 28px;
+    margin-right: 88px;
+}
